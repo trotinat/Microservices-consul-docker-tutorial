@@ -1,0 +1,4 @@
+ma\emsi\clientService\ClientServiceApplication.class
+ma\emsi\clientService\controller\ClientController.class
+ma\emsi\clientService\entities\Client.class
+ma\emsi\clientService\repositorires\ClientRepository.class

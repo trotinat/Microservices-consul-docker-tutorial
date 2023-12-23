@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3309/VoitureDB?createDatabaseIfNotExist=true
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  application:
+    name: SERVICE-VOITURE-V0
+  cloud:
+    discovery:
+      enabled: true
+    consul:
+      host: localhost
+      port: 8500
+      discovery: SERVICE-VOITURE-V0
+server:
+  port: 8089

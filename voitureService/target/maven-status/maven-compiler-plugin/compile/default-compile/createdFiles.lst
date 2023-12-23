@@ -1,0 +1,5 @@
+ma\emsi\voitureService\controller\VoitureController.class
+ma\emsi\voitureService\repository\VoitureRepository.class
+ma\emsi\voitureService\entities\Client.class
+ma\emsi\voitureService\entities\Voiture.class
+ma\emsi\voitureService\VoitureServiceApplication.class
